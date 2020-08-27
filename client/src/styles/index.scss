@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+/* html {
+  font-size: 62.55%;
+} */
+
+/* body {
+  box-sizing: border-box;
+} */
+
+// Set your brand colors
+$primary: #14213d;
+$warning: #fca311;
+// $link: $blue
+// $info: $cyan
+// $success: $green
+// $danger: $red
+// $dark: $grey-darker
+// $text: $grey-dark
+
+// Update Bulma's global variables
+$family-sans-serif: "Source Sans Pro", sans-serif;
+
+// font size
+$size-1: 4rem;
+
+// Import only what you need from Bulma
+// @import "~bulma/sass/utilities/_all.sass";
+// @import "~bulma/sass/base/_all.sass";
+// @import "~bulma/sass/elements/button.sass";
+// @import "~bulma/sass/elements/container.sass";
+// @import "~bulma/sass/elements/title.sass";
+// @import "~bulma/sass/form/_all.sass";
+// @import "~bulma/sass/components/navbar.sass";
+// @import "~bulma/sass/layout/hero.sass";
+// @import "~bulma/sass/layout/section.sass";
+
+@import "~bulma/sass/utilities/_all";
+@import "~bulma/sass/base/_all";
+@import "~bulma/sass/elements/_all";
+@import "~bulma/sass/form/_all";
+@import "~bulma/sass/components/_all";
+@import "~bulma/sass/grid/_all";
+@import "~bulma/sass/helpers/_all";
+@import "~bulma/sass/layout/_all";
